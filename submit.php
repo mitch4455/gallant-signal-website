@@ -4,7 +4,7 @@ declare(strict_types=1);
 // ─── CONFIG ───────────────────────────────────────────────────────
 // Where proposal submissions land. Multiple recipients allowed
 // (comma-separated). Edit this if your inbox changes.
-$RECIPIENT = 'mitchgallant20@gmail.com';
+$RECIPIENT = 'mitch@gallantsignal.com';
 
 // "From" address. Must be on a domain hosted on this server for best
 // deliverability (Hostinger requires same-domain From for outbound mail).
