@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <defs>
+    <linearGradient id="gsMark" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1a3fa0"></stop>
+      <stop offset="50%" stop-color="#2b7de0"></stop>
+      <stop offset="100%" stop-color="#3de8e0"></stop>
+    </linearGradient>
+  </defs>
+  <g transform="translate(5,2) scale(0.92)">
+    
+    <path d="M58,8 L28,28 L28,68 L58,88 L74,76" fill="none" stroke="url(#gsMark)" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" opacity="0.4"></path>
+    
+    <path d="M42,8 L72,28 L72,48 L28,52 L28,68 M72,52 L72,68 L42,88" fill="none" stroke="url(#gsMark)" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"></path>
+    
+    <path d="M58,8 L28,28 L28,35" fill="none" stroke="url(#gsMark)" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M28,62 L28,68 L58,88 L74,76" fill="none" stroke="url(#gsMark)" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"></path>
+  </g>
+</svg>
