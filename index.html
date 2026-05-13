@@ -643,11 +643,15 @@ footer{background:var(--ink-950);color:var(--ink-300);padding:72px 0 32px}
         </div>
       </div>
       <div class="reveal">
-        <form class="form-card" id="proposalForm" action="/submit.php" method="POST">
+        <form class="form-card" id="proposalForm" action="https://formsubmit.co/mitch@gallantsignal.com" method="POST">
+          <input type="hidden" name="_subject" value="New Gallant Signal proposal request">
+          <input type="hidden" name="_template" value="table">
+          <input type="hidden" name="_captcha" value="true">
+          <input type="hidden" name="_next" value="https://gallantsignal.com/?submitted=1#proposal">
           <input type="hidden" name="business_type" id="hiddenBiz">
           <input type="hidden" name="goal" id="hiddenGoal">
           <input type="hidden" name="budget" id="hiddenBudget">
-          <input type="text" name="website" tabindex="-1" autocomplete="off" aria-hidden="true" style="position:absolute;left:-9999px;width:1px;height:1px;opacity:0">
+          <input type="text" name="_honey" tabindex="-1" autocomplete="off" aria-hidden="true" style="position:absolute;left:-9999px;width:1px;height:1px;opacity:0">
           <div class="form-progress">
             <div class="form-progress-bar active" data-step="1"></div>
             <div class="form-progress-bar" data-step="2"></div>
