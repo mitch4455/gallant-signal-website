@@ -17,6 +17,6 @@
   s.id = 'hs-script-loader';
   s.async = true;
   s.defer = true;
-  s.src = '//js.hs-scripts.com/' + portalId + '.js';
+  s.src = '//js-na3.hs-scripts.com/' + portalId + '.js';
   document.head.appendChild(s);
 })('343279375');
